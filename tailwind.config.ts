@@ -1,7 +1,9 @@
 import type { Config } from "tailwindcss";
+import { GRAY_PRIMARY, GRAY_SECONDARY, WHITE_PRIMARY } from "./constants/COLORS";
 
 export default {
   content: [
+    "./layout/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,8 +11,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        WHITE_PRIMARY: WHITE_PRIMARY,
+        GRAY_PRIMARY: GRAY_PRIMARY,
+        GRAY_SECONDARY: GRAY_SECONDARY,
       },
     },
   },
