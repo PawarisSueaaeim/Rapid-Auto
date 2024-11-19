@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/layout/Header";
+import Footer from "@/layout/Footer";
 
 export const metadata: Metadata = {
 	icons: {
@@ -18,9 +19,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>
+            <body className="flex flex-col justify-between min-h-screen">
 				<Header/>
-                {children}
+				{children}
+				<Footer/>
             </body>
         </html>
     );
