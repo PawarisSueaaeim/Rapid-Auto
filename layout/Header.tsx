@@ -39,7 +39,7 @@ export default function Header({}: Props) {
                 <div className="hidden md:flex flex-nowrap">
                     {menuData.map((item,index) => {
                         return (
-                            <Link href={item.link} key={index} className="hover:bg-GRAY_PRIMARY rounded duration-200 p-4">{item.menu}</Link>
+                            <Link href={item.link} key={index} className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond">{item.menu}</Link>
                         )
                     })}
                 </div>
@@ -57,7 +57,7 @@ export default function Header({}: Props) {
                         return (
                             <Link
                                 href={item.link}
-                                className="py-2 px-8"
+                                className="py-2 px-8 respond"
                                 key={index}
                             >
                                 {item.menu}

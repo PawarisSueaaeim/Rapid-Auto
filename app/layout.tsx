@@ -20,7 +20,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="flex flex-col justify-between min-h-screen">
-				<Header/>
+				<div className="absolute w-full z-[999]">
+					<Header/>
+				</div>
 				{children}
 				<Footer/>
             </body>

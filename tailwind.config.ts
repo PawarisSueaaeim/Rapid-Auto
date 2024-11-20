@@ -3,6 +3,7 @@ import { GRAY_PRIMARY, GRAY_SECONDARY, WHITE_PRIMARY } from "./constants/COLORS"
 
 export default {
   content: [
+    "./common/**/*.{js,ts,jsx,tsx,mdx}",
     "./layout/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",

@@ -11,3 +11,12 @@
 body {
   font-family: "Noto Sans Thai", sans-serif;
 }
+
+.respond {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.respond:active {
+  transform: scale(0.9);
+}
