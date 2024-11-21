@@ -13,19 +13,19 @@ export default function SecondSection({}: Props) {
         <div className="relative w-full h-screen">
             <div className="absolute bg-WHITE_PRIMARY opacity-95 h-full w-full z-[2] pb-2">
                 <div className="flex flex-col justify-between h-full">
-                    <div className="flex flex-col gap-2">
-                        <div className="flex flex-col md:justify-center md:items-center gap-1 py-10 px-4">
-                            <span className="text-[24px] font-semibold">
+                    <div className="flex flex-col md:gap-2">
+                        <div className="flex flex-col md:justify-center md:items-center gap-1 py-2 sm:py-4 md:py-10 px-4">
+                            <span className="text-[16px] sm:text-[22px] md:text-[24px] font-semibold">
                                 Rapid Certified Car
                             </span>
-                            <span className="text-[20px] font-light">
+                            <span className="text-[14px] sm:text-[16px] md:text-[20px] font-light">
                                 รับประกันคุณภาพ โดยผู้เชี่ยวชาญตรวจเช็คกว่า 50
                                 รายการ ซื้อขายรถกับเรา ราคาดี ถูกใจ ไร้กังวล
                             </span>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="flex flex-col md:items-center px-4 gap-2">
-                                <div className="text-[22px]">
+                                <div className="text-[14px] md:text-[22px]">
                                     ซื้อรถกับ Rapid Auto นัดพบจบเลย
                                 </div>
                                 <div className="flex flex-col gap-4 px-8">
@@ -36,7 +36,7 @@ export default function SecondSection({}: Props) {
                                             width={50}
                                             height={50}
                                         />
-                                        <span className="text-[16px] font-light">
+                                        <span className="text-[12px] md:text-[16px] font-light">
                                             สภาพนางฟ้า
                                         </span>
                                     </div>
@@ -47,7 +47,7 @@ export default function SecondSection({}: Props) {
                                             width={50}
                                             height={50}
                                         />
-                                        <span className="text-[16px] font-light">
+                                        <span className="text-[12px] md:text-[16px] font-light">
                                             งานดี ไม่มีย้อมแมว
                                         </span>
                                     </div>
@@ -58,14 +58,14 @@ export default function SecondSection({}: Props) {
                                             width={50}
                                             height={50}
                                         />
-                                        <span className="text-[16px] font-light">
+                                        <span className="text-[12px] md:text-[16px] font-light">
                                             จัด โอน จบแน่นอน
                                         </span>
                                     </div>
                                 </div>
                             </div>
                             <div className="flex flex-col md:items-center px-4 gap-2">
-                                <div className="text-[22px]">
+                                <div className="text-[14px] md:text-[22px]">
                                     ขายรถกับ Rapid Auto จบใน 45 นาที
                                 </div>
                                 <div className="flex flex-col px-8 gap-4">
@@ -76,7 +76,7 @@ export default function SecondSection({}: Props) {
                                             width={50}
                                             height={50}
                                         />
-                                        <span className="text-[16px] font-light">
+                                        <span className="text-[12px] md:text-[16px] font-light">
                                             ราคาโคตรดี
                                         </span>
                                     </div>
@@ -87,7 +87,7 @@ export default function SecondSection({}: Props) {
                                             width={50}
                                             height={50}
                                         />
-                                        <span className="text-[16px] font-light">
+                                        <span className="text-[12px] md:text-[16px] font-light">
                                             รับเงินทันที
                                         </span>
                                     </div>
@@ -98,7 +98,7 @@ export default function SecondSection({}: Props) {
                                             width={50}
                                             height={50}
                                         />
-                                        <span className="text-[16px] font-light">
+                                        <span className="text-[12px] md:text-[16px] font-light">
                                             ที่นี่ที่เดียว
                                         </span>
                                     </div>

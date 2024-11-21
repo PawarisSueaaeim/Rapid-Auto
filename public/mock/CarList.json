@@ -60,36 +60,6 @@
             "year": "2021",
             "milage": "60,000",
             "listing_price": 2000000
-        },
-        {
-            "vehicle_id": "7",
-            "main_image": "/picture/car/ToyotaCamryBlack.png",
-            "brand": "Toyota",
-            "model": "Camry",
-            "series": "Sport",
-            "year": "2019",
-            "milage": "40,000",
-            "listing_price": 2000000
-        },
-        {
-            "vehicle_id": "8",
-            "main_image": "/picture/car/ToyotaCamryGrey.png",
-            "brand": "Toyota",
-            "model": "Camry",
-            "series": "Sport",
-            "year": "2020",
-            "milage": "50,000",
-            "listing_price": 2000000
-        },
-        {
-            "vehicle_id": "9",
-            "main_image": "/picture/car/ToyotaCamryRed.png",
-            "brand": "Toyota",
-            "model": "Camry",
-            "series": "Sport",
-            "year": "2021",
-            "milage": "60,000",
-            "listing_price": 2000000
         }
     ]
 }
