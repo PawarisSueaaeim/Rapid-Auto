@@ -1,0 +1,95 @@
+{
+    "status": "OK",
+    "data": [
+        {
+            "vehicle_id": "1",
+            "main_image": "/picture/car/HondaAccord.jpeg",
+            "brand": "Honda",
+            "model": "Accord",
+            "series": "RS",
+            "year": "2019",
+            "milage": "10,000",
+            "listing_price": 1000000
+        },
+        {
+            "vehicle_id": "2",
+            "main_image": "/picture/car/HondaAccordBlack.jpeg",
+            "brand": "Honda",
+            "model": "Accord",
+            "series": "RS",
+            "year": "2019",
+            "milage": "20,000",
+            "listing_price": 1000000
+        },
+        {
+            "vehicle_id": "3",
+            "main_image": "/picture/car/HondaAccordGrey.jpeg",
+            "brand": "Honda",
+            "model": "Accord",
+            "series": "RS",
+            "year": "2019",
+            "milage": "30,000",
+            "listing_price": 1000000
+        },
+        {
+            "vehicle_id": "4",
+            "main_image": "/picture/car/ToyotaAlphard.webp",
+            "brand": "Toyota",
+            "model": "Alphard",
+            "series": "RS",
+            "year": "2019",
+            "milage": "40,000",
+            "listing_price": 2000000
+        },
+        {
+            "vehicle_id": "5",
+            "main_image": "/picture/car/ToyotaAlphardGray.png",
+            "brand": "Toyota",
+            "model": "Alphard",
+            "series": "RS",
+            "year": "2020",
+            "milage": "50,000",
+            "listing_price": 2000000
+        },
+        {
+            "vehicle_id": "6",
+            "main_image": "/picture/car/ToyotaAlphardWhite.png",
+            "brand": "Toyota",
+            "model": "Alphard",
+            "series": "RS",
+            "year": "2021",
+            "milage": "60,000",
+            "listing_price": 2000000
+        },
+        {
+            "vehicle_id": "7",
+            "main_image": "/picture/car/ToyotaCamryBlack.png",
+            "brand": "Toyota",
+            "model": "Camry",
+            "series": "Sport",
+            "year": "2019",
+            "milage": "40,000",
+            "listing_price": 2000000
+        },
+        {
+            "vehicle_id": "8",
+            "main_image": "/picture/car/ToyotaCamryGrey.png",
+            "brand": "Toyota",
+            "model": "Camry",
+            "series": "Sport",
+            "year": "2020",
+            "milage": "50,000",
+            "listing_price": 2000000
+        },
+        {
+            "vehicle_id": "9",
+            "main_image": "/picture/car/ToyotaCamryRed.png",
+            "brand": "Toyota",
+            "model": "Camry",
+            "series": "Sport",
+            "year": "2021",
+            "milage": "60,000",
+            "listing_price": 2000000
+        }
+    ]
+}

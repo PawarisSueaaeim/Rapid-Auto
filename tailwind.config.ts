@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { GRAY_PRIMARY, GRAY_SECONDARY, WHITE_PRIMARY } from "./constants/COLORS";
+import { DRAKGRAY_PRIMARY, GRAY_PRIMARY, GRAY_SECONDARY, WHITE_PRIMARY } from "./constants/COLORS";
 
 export default {
   content: [
@@ -15,6 +15,7 @@ export default {
         WHITE_PRIMARY: WHITE_PRIMARY,
         GRAY_PRIMARY: GRAY_PRIMARY,
         GRAY_SECONDARY: GRAY_SECONDARY,
+        DRAKGRAY_PRIMARY: DRAKGRAY_PRIMARY,
       },
     },
   },

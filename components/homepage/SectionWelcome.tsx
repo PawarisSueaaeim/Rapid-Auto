@@ -7,7 +7,7 @@ type Props = {};
 
 export default function SectionWelcome({}: Props) {
     return (
-        <div className="relative w-full h-screen overflow-hidden">
+        <div className="relative w-full h-screen">
             <div className="absolute h-full w-full z-[2] pt-28 pb-2">
                 <div className="flex flex-col justify-between h-full">
                     <div className="flex flex-col gap-4 items-center">

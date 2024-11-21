@@ -1,10 +1,13 @@
+import SecondSection from "@/components/homepage/SecondSection";
 import SectionWelcome from "@/components/homepage/SectionWelcome";
-import Image from "next/image";
+import ShowcarSection from "@/components/homepage/ShowcarSection";
 
 export default function Home() {
     return (
-        <div>
+        <div className="flex flex-col overflow-hidden">
 			<SectionWelcome/>
+			<SecondSection/>
+            <ShowcarSection/>
 		</div>
     );
 }
