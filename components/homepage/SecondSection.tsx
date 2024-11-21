@@ -4,6 +4,7 @@ import {
     GRAY_PRIMARY,
 } from "@/constants/COLORS";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -107,18 +108,22 @@ export default function SecondSection({}: Props) {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 px-4 md:grid-cols-2 md:px-60 gap-2">
-                        <ButtonPrimary
-                            text="ซื้อรถ"
-                            onClick={() => {}}
-                            bgColor={GRAY_PRIMARY}
-                            textColor={BLACK_PRIMARY}
-                        />
-                        <ButtonPrimary
-                            text="ขายรถ"
-                            onClick={() => {}}
-                            bgColor={GRAY_PRIMARY}
-                            textColor={BLACK_PRIMARY}
-                        />
+                        <Link href="buycar">
+                            <ButtonPrimary
+                                text="ซื้อรถ"
+                                onClick={() => {}}
+                                bgColor={GRAY_PRIMARY}
+                                textColor={BLACK_PRIMARY}
+                            />
+                        </Link>
+                        <Link href="sellcar">
+                            <ButtonPrimary
+                                text="ขายรถ"
+                                onClick={() => {}}
+                                bgColor={GRAY_PRIMARY}
+                                textColor={BLACK_PRIMARY}
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>

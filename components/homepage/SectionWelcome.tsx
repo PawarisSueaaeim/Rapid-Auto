@@ -1,6 +1,8 @@
 import ButtonPrimary from "@/common/button/ButtonPrimary";
 import { BLACK_PRIMARY, WHITE_PRIMARY } from "@/constants/COLORS";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 type Props = {};
@@ -21,18 +23,22 @@ export default function SectionWelcome({}: Props) {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 px-4 md:grid-cols-2 md:px-60 gap-2">
-                        <ButtonPrimary
-                            text="ซื้อรถ"
-                            onClick={() => {}}
-                            bgColor={WHITE_PRIMARY}
-                            textColor={BLACK_PRIMARY}
-                        />
-                        <ButtonPrimary
-                            text="ขายรถ"
-                            onClick={() => {}}
-                            bgColor={WHITE_PRIMARY}
-                            textColor={BLACK_PRIMARY}
-                        />
+                        <Link href="buycar">
+                            <ButtonPrimary
+                                text="ซื้อรถ"
+                                onClick={() => {}}
+                                bgColor={WHITE_PRIMARY}
+                                textColor={BLACK_PRIMARY}
+                            />
+                        </Link>
+                        <Link href="sellcar">
+                            <ButtonPrimary
+                                text="ขายรถ"
+                                onClick={() => {}}
+                                bgColor={WHITE_PRIMARY}
+                                textColor={BLACK_PRIMARY}
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>

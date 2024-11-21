@@ -9,8 +9,8 @@ import { IoIosMenu } from "react-icons/io";
 type Props = {};
 
 const menuData: iMenuHeader[] = [
-    { menu: "ซื้อรถ", link: "/buy-car" },
-    { menu: "ขายรถ", link: "/sell-car" },
+    { menu: "ซื้อรถ", link: "/buycar" },
+    { menu: "ขายรถ", link: "/sellcar" },
     { menu: "ติดต่อเรา", link: "/contactus" },
     { menu: "เกี่ยวกับเรา", link: "/aboutus" },
     { menu: "เข้าสู่ระบบ", link: "/login" },

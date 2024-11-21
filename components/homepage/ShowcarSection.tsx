@@ -5,6 +5,7 @@ import { BLACK_PRIMARY, WHITE_PRIMARY } from "@/constants/COLORS";
 import { getCarList } from "@/api/homepage";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 type Props = {};
 
@@ -19,7 +20,6 @@ export default function ShowcarSection({}: Props) {
                 setLoading(true);
                 const response = await getCarList();
                 if (response.status === "OK") {
-                    console.log(response.data);
                     setListItem(response.data);
                 } else {
                     setClientMessage("ไม่พบรายการสินค้า");
@@ -65,12 +65,14 @@ export default function ShowcarSection({}: Props) {
                         )}
                     </div>
                     <div className="px-8">
-                        <ButtonPrimary
-                            text="ดูรถยอดนิยมเพื่มเติม"
-                            onClick={() => {}}
-                            bgColor={WHITE_PRIMARY}
-                            textColor={BLACK_PRIMARY}
-                        />
+                        <Link href="buycar">
+                            <ButtonPrimary
+                                text="ดูรถยอดนิยมเพื่มเติม"
+                                onClick={() => {}}
+                                bgColor={WHITE_PRIMARY}
+                                textColor={BLACK_PRIMARY}
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>
