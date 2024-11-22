@@ -100,8 +100,8 @@ const SelectMultiple: React.FC<Props> = ({
 
     return (
         <div>
-            <div className="flex flex-col border border-[#DDD] rounded-[6px] px-4 py-2">
-                <div className="text-nowBrown text-sm font-light">{label}</div>
+            <div className="relative flex flex-col border border-[#DDD] rounded-[6px] px-4 py-2">
+                <div className={`absolute ${(isOpen || value.length > 0 ) ? "top-[-10px] duration-200" : " top-3 duration-200"} bg-WHITE_PRIMARY text-nowBrown text-sm font-light px-2`}>{label}</div>
                 <div
                     ref={containerRef}
                     onBlur={handleOnBlur}
@@ -112,7 +112,7 @@ const SelectMultiple: React.FC<Props> = ({
                     <span className={styles.value}>
                         {value?.length === options?.length ? (
                             <div className="text-nowBrown text-sm font-light">
-                                ทุกคน
+                                ทั้งหมด
                             </div>
                         ) : (
                             <>
