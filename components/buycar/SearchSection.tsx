@@ -4,7 +4,14 @@ import React, { useEffect, useState } from "react";
 
 type Props = {};
 
-const options = [
+const options: iSelected[] = [
+    { value: "01", displayValue: "Honda" },
+    { value: "02", displayValue: "Toyota" },
+    { value: "03", displayValue: "BMW" },
+    { value: "04", displayValue: "Benz" },
+];
+
+const optionsModel = [
     { value: "01", displayValue: "Honda" },
     { value: "02", displayValue: "Toyota" },
     { value: "03", displayValue: "BMW" },
