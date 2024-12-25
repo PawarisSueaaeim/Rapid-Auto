@@ -36,16 +36,16 @@ export default function ShowcarSection({}: Props) {
     // **เนื่องจากข้อมูลฝั่ง server ยังไม่พร้อม
 
     return (
-        <div className="relative w-full min-h-screen">
-            <div className="absolute bg-GRAY_PRIMARY opacity-95 h-full w-full z-[2] px-4 sm:pt-4 pb-2">
-                <div className="flex flex-col justify-between h-full md:px-8">
+        <div className="relative w-full min-h-screen h-auto">
+            <div className="bg-GRAY_PRIMARY opacity-95 h-full w-full z-[2] sm:p-4 pb-2">
+                <div className="flex flex-col justify-between h-full md:px-8 gap-8">
                     <div>
                         {loading && <div className="flex justify-center items-center">Loading...</div>}
                         {!loading && clientMessage && (
                             <div className="flex justify-center items-center">{clientMessage}</div>
                         )}
                         {!loading && !clientMessage && (
-                            <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2">
+                            <div className="grid grid-cols-2 gap-1 sm:grid-cols-3 sm:gap-2">
                                 {listItem.map((item: iItemList, index: number) => {
                                     return (
                                         <div key={index} className="flex justify-center items-center">
@@ -76,17 +76,6 @@ export default function ShowcarSection({}: Props) {
                     </div>
                 </div>
             </div>
-            <Image
-                src="/picture/car/bg-desktop-main-03.jpg"
-                alt="bg-desktop-main-03"
-                className="z-0"
-                quality={100}
-                fill
-                sizes="100vw"
-                style={{
-                    objectFit: "cover",
-                }}
-            />
         </div>
     );
 }
