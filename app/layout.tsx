@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/layout/Header";
 import Footer from "@/layout/Footer";
+import ReduxProvider from "@/components/redux/ReduxProvider";
 
 export const metadata: Metadata = {
 	icons: {
@@ -20,11 +21,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="flex flex-col justify-between min-h-screen">
-				<div className="absolute w-full z-[999]">
-					<Header/>
-				</div>
-				{children}
-				<Footer/>
+                <ReduxProvider>
+                    <div className="absolute w-full z-[999]">
+                        <Header/>
+                    </div>
+                    {children}
+                    <Footer/>
+                </ReduxProvider>
             </body>
         </html>
     );

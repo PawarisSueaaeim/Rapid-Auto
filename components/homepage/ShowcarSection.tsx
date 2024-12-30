@@ -3,24 +3,42 @@ import ButtonPrimary from "@/common/button/ButtonPrimary";
 import CardItemList from "@/common/card/CardItemList";
 import { BLACK_PRIMARY, WHITE_PRIMARY } from "@/constants/COLORS";
 import { getCarList } from "@/api/homepage";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useDispatch, useSelector } from "react-redux";
+import {
+    getClientMessage,
+    getDataSelector,
+    getDataVehicles,
+    loadingData,
+} from "@/store/slices/getDataSlice";
 
 type Props = {};
-
 export default function ShowcarSection({}: Props) {
+    const dispatch = useDispatch();
+    const { listVehicles } = useSelector(getDataSelector);
+
     const [loading, setLoading] = useState(false);
     const [clientMessage, setClientMessage] = useState("");
-    const [listItem, setListItem] = useState([]);
 
     useEffect(() => {
-        const getCarListData = async () => {
+        const getVehiclesData = async () => {
             try {
                 setLoading(true);
-                const response = await getCarList();
+                const response: any = await getCarList({
+                    orderby: "vehicle_id",
+                    page: 1,
+                    per_page: 6,
+                    search: "",
+                    sort: "desc",
+                });
                 if (response.status === "OK") {
-                    setListItem(response.data);
+                    dispatch(
+                        getDataVehicles({
+                            value: response.data,
+                            keyValue: "homePage",
+                        })
+                    );
                 } else {
                     setClientMessage("ไม่พบรายการสินค้า");
                 }
@@ -31,36 +49,48 @@ export default function ShowcarSection({}: Props) {
                 setLoading(false);
             }
         };
-        getCarListData();
-    }, []); // จริงๆแล้วท่านี้ไม่ค่อยดีต่อ SEO ถ้ามีเวลาและ server พร้อมจะต้องทำเป็น server side
-    // **เนื่องจากข้อมูลฝั่ง server ยังไม่พร้อม
+        getVehiclesData();
+    }, []);
 
     return (
-        <div className="relative w-full min-h-screen h-auto">
+        <div className="relative w-full h-auto">
             <div className="bg-GRAY_PRIMARY opacity-95 h-full w-full z-[2] sm:p-4 pb-2">
                 <div className="flex flex-col justify-between h-full md:px-8 gap-8">
                     <div>
-                        {loading && <div className="flex justify-center items-center">Loading...</div>}
+                        {loading && (
+                            <div className="flex justify-center items-center">
+                                Loading...
+                            </div>
+                        )}
                         {!loading && clientMessage && (
-                            <div className="flex justify-center items-center">{clientMessage}</div>
+                            <div className="flex justify-center items-center">
+                                {clientMessage}
+                            </div>
                         )}
                         {!loading && !clientMessage && (
                             <div className="grid grid-cols-2 gap-1 sm:grid-cols-3 sm:gap-2">
-                                {listItem.map((item: iItemList, index: number) => {
-                                    return (
-                                        <div key={index} className="flex justify-center items-center">
-                                            <CardItemList
-                                                img={item.main_image}
-                                                brand={item.brand}
-                                                model={item.model}
-                                                year={item.year}
-                                                submodel={item.series}
-                                                milage={item.milage}
-                                                price={item.listing_price}
-                                            />
-                                        </div>
-                                    );
-                                })}
+                                {listVehicles.map(
+                                    (item: iItemList, index: number) => {
+                                        return (
+                                            <div
+                                                key={index}
+                                                className="flex justify-center items-center"
+                                            >
+                                                <CardItemList
+                                                    img={item.main_image}
+                                                    brand={item.brand}
+                                                    model={item.model}
+                                                    year={item.year}
+                                                    submodel={item.series}
+                                                    milage={item.milage}
+                                                    price={
+                                                        item.listing_price_label
+                                                    }
+                                                />
+                                            </div>
+                                        );
+                                    }
+                                )}
                             </div>
                         )}
                     </div>

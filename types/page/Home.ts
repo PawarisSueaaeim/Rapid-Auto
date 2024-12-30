@@ -5,7 +5,7 @@ type iMenuHeader = {
 
 type iItemList = {
     brand: string;
-    listing_price: number;
+    listing_price_label: string;
     main_image: string;
     milage: string;
     model: string;

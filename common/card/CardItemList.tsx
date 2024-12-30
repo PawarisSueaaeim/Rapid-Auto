@@ -8,7 +8,7 @@ type Props = {
     year: string;
     submodel: string;
     milage: string;
-    price: number;
+    price: string;
 };
 
 export default function CardItemList({
@@ -44,7 +44,7 @@ export default function CardItemList({
                 </div>
                 <div className="flex items-center justify-between text-[12px] md:text-[14px] text-BLUE_PRIMARY">
                     <span className="font-semibold">Price: </span>
-                    <span><span className="font-bold">{currency(price, 0)}</span><span> บาท</span></span>
+                    <span><span className="font-bold">{price}</span><span> บาท</span></span>
                 </div>
                 <div className="flex justify-end font-light text-[10px]">ดูเพิ่มเติม</div>
             </div>
