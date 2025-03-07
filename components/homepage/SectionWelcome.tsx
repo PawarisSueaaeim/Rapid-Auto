@@ -17,7 +17,7 @@ export default function SectionWelcome({}: Props) {
                             <span>Thailand first Digital</span>
                             <span> Pre-owned car center</span>
                         </div>
-                        <div className="flex flex-col md:flex-row text-WHITE_PRIMARY text-[20px] font-light">
+                        <div className="flex flex-col md:flex-row text-black text-[20px] font-light">
                             <span>ประสบการณ์ดีดี ซื้อขายรถที่นี่ ประทับใจ</span>
                             <span>แน่นอนผ่าน Platform Rapid Auto</span>
                         </div>

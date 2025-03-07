@@ -22,7 +22,7 @@ export default function RootLayout({
         <html lang="en">
             <body className="flex flex-col justify-between min-h-screen">
                 <ReduxProvider>
-                    <div className="absolute w-full z-[999]">
+                    <div className="fixed top-0 w-full z-[999]">
                         <Header/>
                     </div>
                     {children}

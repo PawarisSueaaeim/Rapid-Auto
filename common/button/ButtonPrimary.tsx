@@ -5,6 +5,8 @@ type Props = {
     onClick: Function;
     bgColor?: string;
     textColor?: string;
+    className?: string;
+    disabled?: boolean;
 };
 
 export default function ButtonPrimary({
@@ -12,17 +14,20 @@ export default function ButtonPrimary({
     onClick,
     bgColor,
     textColor,
+    className,
+    disabled
 }: Props) {
     return (
-        <div
-            className={`flex justify-center items-center rounded-md hover:cursor-pointer duration-300 p-2 md:p-4 respond text-[12px] md:text-[16px]`}
-            onClick={onClick()}
+        <button
+            className={`${className} flex justify-center items-center rounded-md hover:cursor-pointer duration-75 active:scale-95 p-2 text-[12px] md:text-[16px] w-full`}
+            disabled={disabled}
+            onClick={() => onClick()}
             style={{
-                backgroundColor: bgColor || undefined,
+                backgroundColor: disabled ? "#666" : bgColor || undefined,
                 color: textColor,
             }}
         >
             {text}
-        </div>
+        </button>
     );
 }
