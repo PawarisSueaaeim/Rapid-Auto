@@ -1,5 +1,4 @@
 "use client";
-import { login } from "@/api/login";
 import ButtonPrimary from "@/common/button/ButtonPrimary";
 import InputPrimary from "@/common/input/InputPrimary";
 import { signIn } from "next-auth/react";
@@ -18,7 +17,16 @@ export default function LoginComponent({}: Props) {
             password: password,
             redirect: false,
         });
-        console.log(response);
+        if (response?.status == 200) {
+            Swal.fire({
+                icon: "success",
+                title: "เข้าสู่ระบบสำเร็จ",
+                showConfirmButton: false,
+                timer: 1500,
+            }).then(() => {
+                window.location.href = "/";
+            })
+        }
     };
 
     return (

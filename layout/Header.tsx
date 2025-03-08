@@ -22,8 +22,6 @@ export default function Header({}: Props) {
     const [onOpen, setOnOpen] = useState(false);
     const { data: session }: any = useSession();
 
-    console.log("session", session);
-
     return (
         <div className="relative">
             <div className="flex justify-between items-center pr-4">
