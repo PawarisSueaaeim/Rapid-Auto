@@ -1,9 +1,11 @@
 "use client";
+import { signIn, signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaRegCircleUser } from "react-icons/fa6";
 import { IoIosMenu } from "react-icons/io";
 
 type Props = {};
@@ -13,12 +15,14 @@ const menuData: iMenuHeader[] = [
     { menu: "ขายรถ", link: "/sellcar" },
     { menu: "ติดต่อเรา", link: "/contactus" },
     { menu: "เกี่ยวกับเรา", link: "/aboutus" },
-    { menu: "เข้าสู่ระบบ", link: "/login" },
 ];
 
 export default function Header({}: Props) {
     const router = useRouter();
     const [onOpen, setOnOpen] = useState(false);
+    const { data: session }: any = useSession();
+
+    console.log("session", session);
 
     return (
         <div className="relative">
@@ -32,16 +36,53 @@ export default function Header({}: Props) {
                         onClick={() => router.push("/")}
                     />
                 </div>
-                <IoIosMenu
-                    className="md:hidden h-8 w-8"
-                    onClick={() => setOnOpen(true)}
-                />
+                <div className="flex items-center gap-2">
+                    {session ? (
+                        <span onClick={() => signOut()} className="md:hidden active:scale-95 flex gap-1 items-center">
+                            {(session.user.username)}
+                            <span className="text-xs text-blue-500">
+                                Logout
+                            </span>
+                        </span>
+                    ) : (
+                        <FaRegCircleUser
+                            className="text-2xl md:hidden active:scale-95"
+                            onClick={() => signIn()}
+                        />
+                    )}
+                    <IoIosMenu
+                        className="md:hidden h-8 w-8"
+                        onClick={() => setOnOpen(true)}
+                    />
+                </div>
                 <div className="hidden md:flex flex-nowrap">
-                    {menuData.map((item,index) => {
+                    {menuData.map((item, index) => {
                         return (
-                            <Link href={item.link} key={index} className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond">{item.menu}</Link>
-                        )
+                            <Link
+                                href={item.link}
+                                key={index}
+                                className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond"
+                            >
+                                {item.menu}
+                            </Link>
+                        );
                     })}
+                    {session ? (
+                        <span
+                            onClick={() => signOut()}
+                            className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond"
+                        >
+                            {(session.user.username)}
+                            ออกจากระบบ
+                        </span>
+                    ) : (
+                        <span
+                            onClick={() => signIn()}
+                            className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond"
+                        >
+                            เข้าสู่ระบบ
+                        </span>
+                    )}
                 </div>
             </div>
             <div

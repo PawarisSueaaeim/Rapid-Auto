@@ -21,36 +21,36 @@ export default function ShowcarSection({}: Props) {
     const [loading, setLoading] = useState(false);
     const [clientMessage, setClientMessage] = useState("");
 
-    useEffect(() => {
-        const getVehiclesData = async () => {
-            try {
-                setLoading(true);
-                const response: any = await getCarList({
-                    orderby: "vehicle_id",
-                    page: 1,
-                    per_page: 6,
-                    search: "",
-                    sort: "desc",
-                });
-                if (response.status === "OK") {
-                    dispatch(
-                        getDataVehicles({
-                            value: response.data,
-                            keyValue: "homePage",
-                        })
-                    );
-                } else {
-                    setClientMessage("ไม่พบรายการสินค้า");
-                }
-            } catch (error) {
-                setClientMessage("เกิดข้อผิดพลาด api ขออภัยในความไม่สะดวก");
-                console.log(error);
-            } finally {
-                setLoading(false);
-            }
-        };
-        getVehiclesData();
-    }, []);
+    // useEffect(() => {
+    //     const getVehiclesData = async () => {
+    //         try {
+    //             setLoading(true);
+    //             const response: any = await getCarList({
+    //                 orderby: "vehicle_id",
+    //                 page: 1,
+    //                 per_page: 6,
+    //                 search: "",
+    //                 sort: "desc",
+    //             });
+    //             if (response.status === "OK") {
+    //                 dispatch(
+    //                     getDataVehicles({
+    //                         value: response.data,
+    //                         keyValue: "homePage",
+    //                     })
+    //                 );
+    //             } else {
+    //                 setClientMessage("ไม่พบรายการสินค้า");
+    //             }
+    //         } catch (error) {
+    //             setClientMessage("เกิดข้อผิดพลาด api ขออภัยในความไม่สะดวก");
+    //             console.log(error);
+    //         } finally {
+    //             setLoading(false);
+    //         }
+    //     };
+    //     getVehiclesData();
+    // }, []);
 
     return (
         <div className="relative w-full h-auto">

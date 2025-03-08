@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {
     text: string;
-    onClick: Function;
+    onClick?: () => void;
     bgColor?: string;
     textColor?: string;
     className?: string;
@@ -21,7 +21,7 @@ export default function ButtonPrimary({
         <button
             className={`${className} flex justify-center items-center rounded-md hover:cursor-pointer duration-75 active:scale-95 p-2 text-[12px] md:text-[16px] w-full`}
             disabled={disabled}
-            onClick={() => onClick()}
+            onClick={onClick}
             style={{
                 backgroundColor: disabled ? "#666" : bgColor || undefined,
                 color: textColor,

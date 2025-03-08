@@ -108,18 +108,16 @@ export default function SecondSection({}: Props) {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 px-4 md:grid-cols-2 md:px-60 gap-2">
-                        <Link href="buycar">
+                        <Link href="/buycar">
                             <ButtonPrimary
                                 text="ซื้อรถ"
-                                onClick={() => {}}
                                 bgColor={GRAY_PRIMARY}
                                 textColor={BLACK_PRIMARY}
                             />
                         </Link>
-                        <Link href="sellcar">
+                        <Link href="/sellcar">
                             <ButtonPrimary
                                 text="ขายรถ"
-                                onClick={() => {}}
                                 bgColor={GRAY_PRIMARY}
                                 textColor={BLACK_PRIMARY}
                             />

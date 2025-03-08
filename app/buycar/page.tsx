@@ -1,4 +1,3 @@
-import SelectMultiple from "@/common/select/SelectMultiple";
 import TitlePage from "@/common/text/TitlePage";
 import SearchSection from "@/components/buycar/SearchSection";
 import React from "react";

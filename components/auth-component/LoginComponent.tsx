@@ -1,7 +1,10 @@
-'use client'
+"use client";
+import { login } from "@/api/login";
 import ButtonPrimary from "@/common/button/ButtonPrimary";
 import InputPrimary from "@/common/input/InputPrimary";
+import { signIn } from "next-auth/react";
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 type Props = {};
 
@@ -9,9 +12,14 @@ export default function LoginComponent({}: Props) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
-    const handleSubmit = () => {
-        console.log(username, password);
-    }
+    const handleSubmit = async () => {
+        const response = await signIn("credentials", {
+            username: username,
+            password: password,
+            redirect: false,
+        });
+        console.log(response);
+    };
 
     return (
         <div className="flex flex-col items-center justify-center gap-4">
@@ -31,7 +39,12 @@ export default function LoginComponent({}: Props) {
                     value={password}
                     onChange={(event) => setPassword(event.target.value)}
                 />
-                <ButtonPrimary text="เข้าสู่ระบบ" onClick={() => handleSubmit()} bgColor="#000" textColor="#fff"/>
+                <ButtonPrimary
+                    text="เข้าสู่ระบบ"
+                    onClick={() => handleSubmit()}
+                    bgColor="#000"
+                    textColor="#fff"
+                />
             </div>
         </div>
     );
