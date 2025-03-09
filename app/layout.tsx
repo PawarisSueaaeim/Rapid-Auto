@@ -27,7 +27,11 @@ export default function RootLayout({
                         <div className="fixed top-0 w-full z-[999]">
                             <Header />
                         </div>
-                        {children}
+                        <div className="flex justify-center w-full">
+                            <div className="w-full max-w-6xl p-1">
+                                {children}
+                            </div>
+                        </div>
                         <Footer />
                     </ReduxProvider>
                 </AuthProvider>
