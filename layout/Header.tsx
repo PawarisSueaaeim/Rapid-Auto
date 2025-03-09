@@ -36,8 +36,11 @@ export default function Header({}: Props) {
                 </div>
                 <div className="flex items-center gap-2">
                     {session ? (
-                        <span onClick={() => signOut()} className="md:hidden active:scale-95 flex gap-1 items-center">
-                            {(session.user.username)}
+                        <span
+                            onClick={() => signOut()}
+                            className="md:hidden active:scale-95 flex gap-1 items-center"
+                        >
+                            {session.user.username}
                             <span className="text-xs text-blue-500">
                                 Logout
                             </span>
@@ -53,7 +56,7 @@ export default function Header({}: Props) {
                         onClick={() => setOnOpen(true)}
                     />
                 </div>
-                <div className="hidden md:flex flex-nowrap">
+                <div className="hidden md:flex flex-nowrap items-center">
                     {menuData.map((item, index) => {
                         return (
                             <Link
@@ -68,15 +71,15 @@ export default function Header({}: Props) {
                     {session ? (
                         <span
                             onClick={() => signOut()}
-                            className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond"
+                            className="flex flex-col items-end justify-center hover:bg-WHITE_PRIMARY rounded duration-200 p-4 active:scale-95 gap-2"
                         >
-                            {(session.user.username)}
-                            ออกจากระบบ
+                            <span>{session.user.username}</span>
+                            <span className="text-blue-500 hover:underline text-xs">ออกจากระบบ</span>
                         </span>
                     ) : (
                         <span
                             onClick={() => signIn()}
-                            className="hover:bg-WHITE_PRIMARY rounded duration-200 p-4 respond"
+                            className="flex items-center hover:bg-WHITE_PRIMARY rounded duration-200 p-4 active:scale-95"
                         >
                             เข้าสู่ระบบ
                         </span>

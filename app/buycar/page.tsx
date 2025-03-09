@@ -1,5 +1,6 @@
 import TitlePage from "@/common/text/TitlePage";
 import SearchSection from "@/components/buycar/SearchSection";
+import VehicleList from "@/components/buycar/VehicleList";
 import React from "react";
 
 type Props = {};
@@ -11,6 +12,9 @@ export default function BuyCar({}: Props) {
 			<div>
 				<SearchSection/>
 			</div>
+            <div>
+                <VehicleList/>
+            </div>
         </div>
     );
 }

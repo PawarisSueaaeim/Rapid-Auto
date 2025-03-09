@@ -1,0 +1,2262 @@
+[
+    {
+        "brand_id": "001",
+        "model": "A1"
+    },
+    {
+        "brand_id": "001",
+        "model": "A3"
+    },
+    {
+        "brand_id": "001",
+        "model": "A4"
+    },
+    {
+        "brand_id": "001",
+        "model": "A5"
+    },
+    {
+        "brand_id": "001",
+        "model": "A6"
+    },
+    {
+        "brand_id": "001",
+        "model": "A7"
+    },
+    {
+        "brand_id": "001",
+        "model": "A8"
+    },
+    {
+        "brand_id": "001",
+        "model": "e-tron"
+    },
+    {
+        "brand_id": "001",
+        "model": "e-tron GT"
+    },
+    {
+        "brand_id": "001",
+        "model": "Q2"
+    },
+    {
+        "brand_id": "001",
+        "model": "Q3"
+    },
+    {
+        "brand_id": "001",
+        "model": "Q5"
+    },
+    {
+        "brand_id": "001",
+        "model": "Q7"
+    },
+    {
+        "brand_id": "001",
+        "model": "Q8"
+    },
+    {
+        "brand_id": "001",
+        "model": "Q8 e-tron"
+    },
+    {
+        "brand_id": "001",
+        "model": "R8"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS e-tron GT"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS Q3"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS Q8"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS3"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS4"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS5"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS6"
+    },
+    {
+        "brand_id": "001",
+        "model": "RS7"
+    },
+    {
+        "brand_id": "001",
+        "model": "S3"
+    },
+    {
+        "brand_id": "001",
+        "model": "TT"
+    },
+    {
+        "brand_id": "002",
+        "model": "116i"
+    },
+    {
+        "brand_id": "002",
+        "model": "118i"
+    },
+    {
+        "brand_id": "002",
+        "model": "120d"
+    },
+    {
+        "brand_id": "002",
+        "model": "120i"
+    },
+    {
+        "brand_id": "002",
+        "model": "218Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "218i"
+    },
+    {
+        "brand_id": "002",
+        "model": "220i"
+    },
+    {
+        "brand_id": "002",
+        "model": "318i"
+    },
+    {
+        "brand_id": "002",
+        "model": "320Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "320d"
+    },
+    {
+        "brand_id": "002",
+        "model": "320i"
+    },
+    {
+        "brand_id": "002",
+        "model": "320Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "323i"
+    },
+    {
+        "brand_id": "002",
+        "model": "325Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "325d"
+    },
+    {
+        "brand_id": "002",
+        "model": "325i"
+    },
+    {
+        "brand_id": "002",
+        "model": "328i"
+    },
+    {
+        "brand_id": "002",
+        "model": "330e"
+    },
+    {
+        "brand_id": "002",
+        "model": "330i"
+    },
+    {
+        "brand_id": "002",
+        "model": "330Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "335Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "420Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "420d"
+    },
+    {
+        "brand_id": "002",
+        "model": "428i"
+    },
+    {
+        "brand_id": "002",
+        "model": "430i"
+    },
+    {
+        "brand_id": "002",
+        "model": "520d"
+    },
+    {
+        "brand_id": "002",
+        "model": "520i"
+    },
+    {
+        "brand_id": "002",
+        "model": "523i"
+    },
+    {
+        "brand_id": "002",
+        "model": "525d"
+    },
+    {
+        "brand_id": "002",
+        "model": "525i"
+    },
+    {
+        "brand_id": "002",
+        "model": "528i"
+    },
+    {
+        "brand_id": "002",
+        "model": "530d"
+    },
+    {
+        "brand_id": "002",
+        "model": "530e"
+    },
+    {
+        "brand_id": "002",
+        "model": "530i"
+    },
+    {
+        "brand_id": "002",
+        "model": "535i"
+    },
+    {
+        "brand_id": "002",
+        "model": "630Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "630d"
+    },
+    {
+        "brand_id": "002",
+        "model": "630i"
+    },
+    {
+        "brand_id": "002",
+        "model": "640Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "645Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "650Ci"
+    },
+    {
+        "brand_id": "002",
+        "model": "730Ld"
+    },
+    {
+        "brand_id": "002",
+        "model": "730Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "735Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "740Le"
+    },
+    {
+        "brand_id": "002",
+        "model": "740Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "745Le"
+    },
+    {
+        "brand_id": "002",
+        "model": "745Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "750e"
+    },
+    {
+        "brand_id": "002",
+        "model": "750Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "760Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "ActiveHybrid 3"
+    },
+    {
+        "brand_id": "002",
+        "model": "ActiveHybrid 5"
+    },
+    {
+        "brand_id": "002",
+        "model": "ActiveHybrid 7 L"
+    },
+    {
+        "brand_id": "002",
+        "model": "i3"
+    },
+    {
+        "brand_id": "002",
+        "model": "i4"
+    },
+    {
+        "brand_id": "002",
+        "model": "i7"
+    },
+    {
+        "brand_id": "002",
+        "model": "i8"
+    },
+    {
+        "brand_id": "002",
+        "model": "iX"
+    },
+    {
+        "brand_id": "002",
+        "model": "iX3"
+    },
+    {
+        "brand_id": "002",
+        "model": "M2"
+    },
+    {
+        "brand_id": "002",
+        "model": "M240i"
+    },
+    {
+        "brand_id": "002",
+        "model": "M3"
+    },
+    {
+        "brand_id": "002",
+        "model": "M340i"
+    },
+    {
+        "brand_id": "002",
+        "model": "M4"
+    },
+    {
+        "brand_id": "002",
+        "model": "M440i"
+    },
+    {
+        "brand_id": "002",
+        "model": "M5"
+    },
+    {
+        "brand_id": "002",
+        "model": "M6"
+    },
+    {
+        "brand_id": "002",
+        "model": "M760e"
+    },
+    {
+        "brand_id": "002",
+        "model": "M760Li"
+    },
+    {
+        "brand_id": "002",
+        "model": "M8"
+    },
+    {
+        "brand_id": "002",
+        "model": "M850i"
+    },
+    {
+        "brand_id": "002",
+        "model": "X1"
+    },
+    {
+        "brand_id": "002",
+        "model": "X2"
+    },
+    {
+        "brand_id": "002",
+        "model": "X3"
+    },
+    {
+        "brand_id": "002",
+        "model": "X3 M"
+    },
+    {
+        "brand_id": "002",
+        "model": "X4"
+    },
+    {
+        "brand_id": "002",
+        "model": "X4 M"
+    },
+    {
+        "brand_id": "002",
+        "model": "X5"
+    },
+    {
+        "brand_id": "002",
+        "model": "X6"
+    },
+    {
+        "brand_id": "002",
+        "model": "X7"
+    },
+    {
+        "brand_id": "002",
+        "model": "XM"
+    },
+    {
+        "brand_id": "002",
+        "model": "Z3"
+    },
+    {
+        "brand_id": "002",
+        "model": "Z4"
+    },
+    {
+        "brand_id": "003",
+        "model": "Berlingo"
+    },
+    {
+        "brand_id": "003",
+        "model": "C3"
+    },
+    {
+        "brand_id": "003",
+        "model": "C4"
+    },
+    {
+        "brand_id": "003",
+        "model": "C5"
+    },
+    {
+        "brand_id": "003",
+        "model": "C6"
+    },
+    {
+        "brand_id": "003",
+        "model": "C8"
+    },
+    {
+        "brand_id": "003",
+        "model": "DS3"
+    },
+    {
+        "brand_id": "003",
+        "model": "DS4"
+    },
+    {
+        "brand_id": "003",
+        "model": "DS5"
+    },
+    {
+        "brand_id": "003",
+        "model": "Evasion"
+    },
+    {
+        "brand_id": "003",
+        "model": "Jumper"
+    },
+    {
+        "brand_id": "003",
+        "model": "Xsara"
+    },
+    {
+        "brand_id": "004",
+        "model": "500"
+    },
+    {
+        "brand_id": "005",
+        "model": "EcoSport"
+    },
+    {
+        "brand_id": "005",
+        "model": "Escape"
+    },
+    {
+        "brand_id": "005",
+        "model": "Everest"
+    },
+    {
+        "brand_id": "005",
+        "model": "Explorer"
+    },
+    {
+        "brand_id": "005",
+        "model": "Fiesta"
+    },
+    {
+        "brand_id": "005",
+        "model": "Focus"
+    },
+    {
+        "brand_id": "005",
+        "model": "Laser"
+    },
+    {
+        "brand_id": "005",
+        "model": "Mustang"
+    },
+    {
+        "brand_id": "005",
+        "model": "Ranger"
+    },
+    {
+        "brand_id": "005",
+        "model": "Territory"
+    },
+    {
+        "brand_id": "006",
+        "model": "Accord"
+    },
+    {
+        "brand_id": "006",
+        "model": "BR-V"
+    },
+    {
+        "brand_id": "006",
+        "model": "Brio"
+    },
+    {
+        "brand_id": "006",
+        "model": "City"
+    },
+    {
+        "brand_id": "006",
+        "model": "Civic"
+    },
+    {
+        "brand_id": "006",
+        "model": "CR-V"
+    },
+    {
+        "brand_id": "006",
+        "model": "CR-Z"
+    },
+    {
+        "brand_id": "006",
+        "model": "Freed"
+    },
+    {
+        "brand_id": "006",
+        "model": "HR-V"
+    },
+    {
+        "brand_id": "006",
+        "model": "Jazz"
+    },
+    {
+        "brand_id": "006",
+        "model": "Mobilio"
+    },
+    {
+        "brand_id": "006",
+        "model": "Odyssey"
+    },
+    {
+        "brand_id": "006",
+        "model": "S2000"
+    },
+    {
+        "brand_id": "006",
+        "model": "STEPWGN SPADA"
+    },
+    {
+        "brand_id": "006",
+        "model": "Stream"
+    },
+    {
+        "brand_id": "006",
+        "model": "WR-V"
+    },
+    {
+        "brand_id": "007",
+        "model": "Coupe"
+    },
+    {
+        "brand_id": "007",
+        "model": "Creta"
+    },
+    {
+        "brand_id": "007",
+        "model": "Elantra"
+    },
+    {
+        "brand_id": "007",
+        "model": "Grand Starex"
+    },
+    {
+        "brand_id": "007",
+        "model": "H-1"
+    },
+    {
+        "brand_id": "007",
+        "model": "H-100"
+    },
+    {
+        "brand_id": "007",
+        "model": "Ioniq"
+    },
+    {
+        "brand_id": "007",
+        "model": "Kona"
+    },
+    {
+        "brand_id": "007",
+        "model": "Santa Fe"
+    },
+    {
+        "brand_id": "007",
+        "model": "Sonata"
+    },
+    {
+        "brand_id": "007",
+        "model": "Stargazer"
+    },
+    {
+        "brand_id": "007",
+        "model": "Staria"
+    },
+    {
+        "brand_id": "007",
+        "model": "Tucson"
+    },
+    {
+        "brand_id": "007",
+        "model": "Veloster"
+    },
+    {
+        "brand_id": "008",
+        "model": "D-Max"
+    },
+    {
+        "brand_id": "008",
+        "model": "ELF"
+    },
+    {
+        "brand_id": "008",
+        "model": "MU-7"
+    },
+    {
+        "brand_id": "008",
+        "model": "MU-X"
+    },
+    {
+        "brand_id": "008",
+        "model": "Trooper"
+    },
+    {
+        "brand_id": "009",
+        "model": "E-Pace"
+    },
+    {
+        "brand_id": "009",
+        "model": "F-Pace"
+    },
+    {
+        "brand_id": "009",
+        "model": "F-Type"
+    },
+    {
+        "brand_id": "009",
+        "model": "I-Pace"
+    },
+    {
+        "brand_id": "009",
+        "model": "S-Type"
+    },
+    {
+        "brand_id": "009",
+        "model": "X-Type"
+    },
+    {
+        "brand_id": "009",
+        "model": "XE"
+    },
+    {
+        "brand_id": "009",
+        "model": "XF"
+    },
+    {
+        "brand_id": "009",
+        "model": "XJ"
+    },
+    {
+        "brand_id": "009",
+        "model": "XJ6"
+    },
+    {
+        "brand_id": "009",
+        "model": "XJ8"
+    },
+    {
+        "brand_id": "009",
+        "model": "XJR"
+    },
+    {
+        "brand_id": "009",
+        "model": "XK"
+    },
+    {
+        "brand_id": "009",
+        "model": "XK8"
+    },
+    {
+        "brand_id": "010",
+        "model": "Carens"
+    },
+    {
+        "brand_id": "010",
+        "model": "Carnival"
+    },
+    {
+        "brand_id": "010",
+        "model": "Cerato Koup"
+    },
+    {
+        "brand_id": "010",
+        "model": "Grand Carnival"
+    },
+    {
+        "brand_id": "010",
+        "model": "K2500"
+    },
+    {
+        "brand_id": "010",
+        "model": "K2700"
+    },
+    {
+        "brand_id": "010",
+        "model": "K2900"
+    },
+    {
+        "brand_id": "010",
+        "model": "Picanto"
+    },
+    {
+        "brand_id": "010",
+        "model": "Pregio"
+    },
+    {
+        "brand_id": "010",
+        "model": "Rio"
+    },
+    {
+        "brand_id": "010",
+        "model": "Sorento"
+    },
+    {
+        "brand_id": "010",
+        "model": "Soul"
+    },
+    {
+        "brand_id": "010",
+        "model": "Stinger"
+    },
+    {
+        "brand_id": "011",
+        "model": "Defender"
+    },
+    {
+        "brand_id": "011",
+        "model": "Discovery"
+    },
+    {
+        "brand_id": "011",
+        "model": "Discovery 3"
+    },
+    {
+        "brand_id": "011",
+        "model": "Discovery 4"
+    },
+    {
+        "brand_id": "011",
+        "model": "Discovery Sport"
+    },
+    {
+        "brand_id": "011",
+        "model": "Freelander"
+    },
+    {
+        "brand_id": "011",
+        "model": "Freelander 2"
+    },
+    {
+        "brand_id": "011",
+        "model": "Range Rover"
+    },
+    {
+        "brand_id": "012",
+        "model": "CT200h"
+    },
+    {
+        "brand_id": "012",
+        "model": "ES300"
+    },
+    {
+        "brand_id": "012",
+        "model": "ES300h"
+    },
+    {
+        "brand_id": "012",
+        "model": "GS200t"
+    },
+    {
+        "brand_id": "012",
+        "model": "GS250"
+    },
+    {
+        "brand_id": "012",
+        "model": "GS300"
+    },
+    {
+        "brand_id": "012",
+        "model": "GS300h"
+    },
+    {
+        "brand_id": "012",
+        "model": "GS350"
+    },
+    {
+        "brand_id": "012",
+        "model": "GS450h"
+    },
+    {
+        "brand_id": "012",
+        "model": "IS200"
+    },
+    {
+        "brand_id": "012",
+        "model": "IS200t"
+    },
+    {
+        "brand_id": "012",
+        "model": "IS250"
+    },
+    {
+        "brand_id": "012",
+        "model": "IS300"
+    },
+    {
+        "brand_id": "012",
+        "model": "IS300h"
+    },
+    {
+        "brand_id": "012",
+        "model": "LM300h"
+    },
+    {
+        "brand_id": "012",
+        "model": "LM350h"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS350"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS430"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS460"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS460L"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS500"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS500h"
+    },
+    {
+        "brand_id": "012",
+        "model": "LS600hL"
+    },
+    {
+        "brand_id": "012",
+        "model": "LX470"
+    },
+    {
+        "brand_id": "012",
+        "model": "NX200t"
+    },
+    {
+        "brand_id": "012",
+        "model": "NX300"
+    },
+    {
+        "brand_id": "012",
+        "model": "NX300h"
+    },
+    {
+        "brand_id": "012",
+        "model": "NX350h"
+    },
+    {
+        "brand_id": "012",
+        "model": "NX450h+"
+    },
+    {
+        "brand_id": "012",
+        "model": "RC200t"
+    },
+    {
+        "brand_id": "012",
+        "model": "RC300"
+    },
+    {
+        "brand_id": "012",
+        "model": "RX200t"
+    },
+    {
+        "brand_id": "012",
+        "model": "RX270"
+    },
+    {
+        "brand_id": "012",
+        "model": "RX300"
+    },
+    {
+        "brand_id": "012",
+        "model": "RX350"
+    },
+    {
+        "brand_id": "012",
+        "model": "RX400h"
+    },
+    {
+        "brand_id": "012",
+        "model": "RX450h"
+    },
+    {
+        "brand_id": "012",
+        "model": "RZ450e"
+    },
+    {
+        "brand_id": "012",
+        "model": "UX250h"
+    },
+    {
+        "brand_id": "012",
+        "model": "UX300e"
+    },
+    {
+        "brand_id": "013",
+        "model": "2"
+    },
+    {
+        "brand_id": "013",
+        "model": "3"
+    },
+    {
+        "brand_id": "013",
+        "model": "323"
+    },
+    {
+        "brand_id": "013",
+        "model": "BT-50"
+    },
+    {
+        "brand_id": "013",
+        "model": "BT-50 PRO"
+    },
+    {
+        "brand_id": "013",
+        "model": "CX-3"
+    },
+    {
+        "brand_id": "013",
+        "model": "CX-30"
+    },
+    {
+        "brand_id": "013",
+        "model": "CX-5"
+    },
+    {
+        "brand_id": "013",
+        "model": "CX-8"
+    },
+    {
+        "brand_id": "013",
+        "model": "CX-9"
+    },
+    {
+        "brand_id": "013",
+        "model": "Fighter"
+    },
+    {
+        "brand_id": "013",
+        "model": "MPV"
+    },
+    {
+        "brand_id": "013",
+        "model": "MX-5"
+    },
+    {
+        "brand_id": "013",
+        "model": "RX-8"
+    },
+    {
+        "brand_id": "013",
+        "model": "Tribute"
+    },
+    {
+        "brand_id": "014",
+        "model": "A170"
+    },
+    {
+        "brand_id": "014",
+        "model": "A180 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "A180 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "A200"
+    },
+    {
+        "brand_id": "014",
+        "model": "A250"
+    },
+    {
+        "brand_id": "014",
+        "model": "A45"
+    },
+    {
+        "brand_id": "014",
+        "model": "B180 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "B200 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C180"
+    },
+    {
+        "brand_id": "014",
+        "model": "C180 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "C180 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "C200"
+    },
+    {
+        "brand_id": "014",
+        "model": "C200 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C200 CGI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C200 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "C220"
+    },
+    {
+        "brand_id": "014",
+        "model": "C220 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "C220 CDI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C230"
+    },
+    {
+        "brand_id": "014",
+        "model": "C230 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "C250"
+    },
+    {
+        "brand_id": "014",
+        "model": "C250 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C250 CDI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C250 CGI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "C300"
+    },
+    {
+        "brand_id": "014",
+        "model": "C32 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "C350"
+    },
+    {
+        "brand_id": "014",
+        "model": "C43"
+    },
+    {
+        "brand_id": "014",
+        "model": "C63"
+    },
+    {
+        "brand_id": "014",
+        "model": "CL500"
+    },
+    {
+        "brand_id": "014",
+        "model": "CL500 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "CL500 BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLA180"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLA200"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLA250 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLA35"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLA45"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLC200 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLK200 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLK240"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS220"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS250 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS250 CDI AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS300"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS350"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS350 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS500"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS53"
+    },
+    {
+        "brand_id": "014",
+        "model": "CLS55 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "E200"
+    },
+    {
+        "brand_id": "014",
+        "model": "E200 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "E200 CGI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "E200 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "E220"
+    },
+    {
+        "brand_id": "014",
+        "model": "E220 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "E230"
+    },
+    {
+        "brand_id": "014",
+        "model": "E240"
+    },
+    {
+        "brand_id": "014",
+        "model": "E250"
+    },
+    {
+        "brand_id": "014",
+        "model": "E250 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "E250 BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "E250 CDI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "E250 CGI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "E250 CGI BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "E270 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "E280"
+    },
+    {
+        "brand_id": "014",
+        "model": "E300"
+    },
+    {
+        "brand_id": "014",
+        "model": "E350"
+    },
+    {
+        "brand_id": "014",
+        "model": "E350 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "E53"
+    },
+    {
+        "brand_id": "014",
+        "model": "E55 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "E63"
+    },
+    {
+        "brand_id": "014",
+        "model": "EQB"
+    },
+    {
+        "brand_id": "014",
+        "model": "EQE350"
+    },
+    {
+        "brand_id": "014",
+        "model": "EQE53"
+    },
+    {
+        "brand_id": "014",
+        "model": "EQS"
+    },
+    {
+        "brand_id": "014",
+        "model": "G350"
+    },
+    {
+        "brand_id": "014",
+        "model": "G63"
+    },
+    {
+        "brand_id": "014",
+        "model": "GL350"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLA200"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLA250"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLA35"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLA45"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLB200"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLC220"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLC250"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLC300"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLC350"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLC43"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLC63"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE250"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE300"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE350"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE43"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE450"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE500"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLE53"
+    },
+    {
+        "brand_id": "014",
+        "model": "GLS350"
+    },
+    {
+        "brand_id": "014",
+        "model": "GT 53"
+    },
+    {
+        "brand_id": "014",
+        "model": "GT 63"
+    },
+    {
+        "brand_id": "014",
+        "model": "GT C"
+    },
+    {
+        "brand_id": "014",
+        "model": "GT R"
+    },
+    {
+        "brand_id": "014",
+        "model": "GT S"
+    },
+    {
+        "brand_id": "014",
+        "model": "Maybach GLS600"
+    },
+    {
+        "brand_id": "014",
+        "model": "Maybach S500"
+    },
+    {
+        "brand_id": "014",
+        "model": "Maybach S560"
+    },
+    {
+        "brand_id": "014",
+        "model": "Maybach S580"
+    },
+    {
+        "brand_id": "014",
+        "model": "ML250 CDI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "ML250 CDI BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "ML280 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "ML300 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "ML350"
+    },
+    {
+        "brand_id": "014",
+        "model": "R280 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "R300 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "R350"
+    },
+    {
+        "brand_id": "014",
+        "model": "S280"
+    },
+    {
+        "brand_id": "014",
+        "model": "S300"
+    },
+    {
+        "brand_id": "014",
+        "model": "S320 CDI"
+    },
+    {
+        "brand_id": "014",
+        "model": "S350"
+    },
+    {
+        "brand_id": "014",
+        "model": "S350 CDI BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "S400"
+    },
+    {
+        "brand_id": "014",
+        "model": "S500"
+    },
+    {
+        "brand_id": "014",
+        "model": "S500 BlueEFFICIENCY"
+    },
+    {
+        "brand_id": "014",
+        "model": "S560"
+    },
+    {
+        "brand_id": "014",
+        "model": "S580"
+    },
+    {
+        "brand_id": "014",
+        "model": "SL350"
+    },
+    {
+        "brand_id": "014",
+        "model": "SL400"
+    },
+    {
+        "brand_id": "014",
+        "model": "SL43"
+    },
+    {
+        "brand_id": "014",
+        "model": "SL500"
+    },
+    {
+        "brand_id": "014",
+        "model": "SL500 BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "SL55 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLC300"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLC43"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK200"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK200 BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK200 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK200 Kompressor AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK230 Kompressor"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK280"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK350 BlueEFFICIENCY AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLK55 AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "SLS AMG"
+    },
+    {
+        "brand_id": "014",
+        "model": "Sprinter"
+    },
+    {
+        "brand_id": "014",
+        "model": "V220"
+    },
+    {
+        "brand_id": "014",
+        "model": "V230"
+    },
+    {
+        "brand_id": "014",
+        "model": "V250"
+    },
+    {
+        "brand_id": "014",
+        "model": "Viano"
+    },
+    {
+        "brand_id": "014",
+        "model": "Vito"
+    },
+    {
+        "brand_id": "015",
+        "model": "EP"
+    },
+    {
+        "brand_id": "015",
+        "model": "ES"
+    },
+    {
+        "brand_id": "015",
+        "model": "Extender"
+    },
+    {
+        "brand_id": "015",
+        "model": "GS"
+    },
+    {
+        "brand_id": "015",
+        "model": "HS"
+    },
+    {
+        "brand_id": "015",
+        "model": "HS PHEV"
+    },
+    {
+        "brand_id": "015",
+        "model": "Maxus9"
+    },
+    {
+        "brand_id": "015",
+        "model": "MG3"
+    },
+    {
+        "brand_id": "015",
+        "model": "MG4"
+    },
+    {
+        "brand_id": "015",
+        "model": "MG5"
+    },
+    {
+        "brand_id": "015",
+        "model": "MG6"
+    },
+    {
+        "brand_id": "015",
+        "model": "V80"
+    },
+    {
+        "brand_id": "015",
+        "model": "VS HEV"
+    },
+    {
+        "brand_id": "015",
+        "model": "ZS"
+    },
+    {
+        "brand_id": "016",
+        "model": "Cooper"
+    },
+    {
+        "brand_id": "016",
+        "model": "One"
+    },
+    {
+        "brand_id": "017",
+        "model": "Attrage"
+    },
+    {
+        "brand_id": "017",
+        "model": "Delica Space Wagon"
+    },
+    {
+        "brand_id": "017",
+        "model": "Evolution IV"
+    },
+    {
+        "brand_id": "017",
+        "model": "Guts"
+    },
+    {
+        "brand_id": "017",
+        "model": "Lancer"
+    },
+    {
+        "brand_id": "017",
+        "model": "Lancer EX"
+    },
+    {
+        "brand_id": "017",
+        "model": "Mirage"
+    },
+    {
+        "brand_id": "017",
+        "model": "Outlander"
+    },
+    {
+        "brand_id": "017",
+        "model": "Outlander PHEV"
+    },
+    {
+        "brand_id": "017",
+        "model": "Pajero"
+    },
+    {
+        "brand_id": "017",
+        "model": "Pajero Sport"
+    },
+    {
+        "brand_id": "017",
+        "model": "Space Wagon"
+    },
+    {
+        "brand_id": "017",
+        "model": "Strada"
+    },
+    {
+        "brand_id": "017",
+        "model": "Strada G-Wagon"
+    },
+    {
+        "brand_id": "017",
+        "model": "Triton"
+    },
+    {
+        "brand_id": "017",
+        "model": "Xpander"
+    },
+    {
+        "brand_id": "017",
+        "model": "Xpander Cross"
+    },
+    {
+        "brand_id": "018",
+        "model": "350Z"
+    },
+    {
+        "brand_id": "018",
+        "model": "370Z"
+    },
+    {
+        "brand_id": "018",
+        "model": "Almera"
+    },
+    {
+        "brand_id": "018",
+        "model": "Cefiro"
+    },
+    {
+        "brand_id": "018",
+        "model": "Frontier"
+    },
+    {
+        "brand_id": "018",
+        "model": "Frontier Navara"
+    },
+    {
+        "brand_id": "018",
+        "model": "GT-R"
+    },
+    {
+        "brand_id": "018",
+        "model": "Juke"
+    },
+    {
+        "brand_id": "018",
+        "model": "Kicks"
+    },
+    {
+        "brand_id": "018",
+        "model": "LEAF"
+    },
+    {
+        "brand_id": "018",
+        "model": "Livina"
+    },
+    {
+        "brand_id": "018",
+        "model": "March"
+    },
+    {
+        "brand_id": "018",
+        "model": "Murano"
+    },
+    {
+        "brand_id": "018",
+        "model": "Navara"
+    },
+    {
+        "brand_id": "018",
+        "model": "Note"
+    },
+    {
+        "brand_id": "018",
+        "model": "NP 300 Navara"
+    },
+    {
+        "brand_id": "018",
+        "model": "NV"
+    },
+    {
+        "brand_id": "018",
+        "model": "Pulsar"
+    },
+    {
+        "brand_id": "018",
+        "model": "Sunny"
+    },
+    {
+        "brand_id": "018",
+        "model": "Sylphy"
+    },
+    {
+        "brand_id": "018",
+        "model": "Teana"
+    },
+    {
+        "brand_id": "018",
+        "model": "Terra"
+    },
+    {
+        "brand_id": "018",
+        "model": "Tiida"
+    },
+    {
+        "brand_id": "018",
+        "model": "Urvan"
+    },
+    {
+        "brand_id": "018",
+        "model": "X-Trail"
+    },
+    {
+        "brand_id": "019",
+        "model": "Good cat"
+    },
+    {
+        "brand_id": "020",
+        "model": "718"
+    },
+    {
+        "brand_id": "020",
+        "model": "911"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Carrera"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Carrera 4"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Carrera 4 GTS"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Carrera 4S"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Carrera GTS"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Carrera S"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 GT3"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Targa"
+    },
+    {
+        "brand_id": "020",
+        "model": "911 Turbo"
+    },
+    {
+        "brand_id": "020",
+        "model": "Boxster"
+    },
+    {
+        "brand_id": "020",
+        "model": "Cayenne"
+    },
+    {
+        "brand_id": "020",
+        "model": "Cayman"
+    },
+    {
+        "brand_id": "020",
+        "model": "Macan"
+    },
+    {
+        "brand_id": "020",
+        "model": "Panamera"
+    },
+    {
+        "brand_id": "020",
+        "model": "Taycan"
+    },
+    {
+        "brand_id": "021",
+        "model": "9-3"
+    },
+    {
+        "brand_id": "021",
+        "model": "9-5"
+    },
+    {
+        "brand_id": "022",
+        "model": "B9 Tribeca"
+    },
+    {
+        "brand_id": "022",
+        "model": "BRZ"
+    },
+    {
+        "brand_id": "022",
+        "model": "Exiga"
+    },
+    {
+        "brand_id": "022",
+        "model": "Forester"
+    },
+    {
+        "brand_id": "022",
+        "model": "Impreza"
+    },
+    {
+        "brand_id": "022",
+        "model": "Legacy"
+    },
+    {
+        "brand_id": "022",
+        "model": "Levorg"
+    },
+    {
+        "brand_id": "022",
+        "model": "Outback"
+    },
+    {
+        "brand_id": "022",
+        "model": "R1"
+    },
+    {
+        "brand_id": "022",
+        "model": "R2"
+    },
+    {
+        "brand_id": "022",
+        "model": "WRX"
+    },
+    {
+        "brand_id": "022",
+        "model": "XV"
+    },
+    {
+        "brand_id": "023",
+        "model": "APV"
+    },
+    {
+        "brand_id": "023",
+        "model": "Caribian"
+    },
+    {
+        "brand_id": "023",
+        "model": "Carry"
+    },
+    {
+        "brand_id": "023",
+        "model": "Celerio"
+    },
+    {
+        "brand_id": "023",
+        "model": "Ciaz"
+    },
+    {
+        "brand_id": "023",
+        "model": "Ertiga"
+    },
+    {
+        "brand_id": "023",
+        "model": "Jimny"
+    },
+    {
+        "brand_id": "023",
+        "model": "Swift"
+    },
+    {
+        "brand_id": "023",
+        "model": "SX4"
+    },
+    {
+        "brand_id": "023",
+        "model": "Vitara"
+    },
+    {
+        "brand_id": "023",
+        "model": "XL7"
+    },
+    {
+        "brand_id": "024",
+        "model": "86 GT"
+    },
+    {
+        "brand_id": "024",
+        "model": "Alphard"
+    },
+    {
+        "brand_id": "024",
+        "model": "Avanza"
+    },
+    {
+        "brand_id": "024",
+        "model": "bZ4X"
+    },
+    {
+        "brand_id": "024",
+        "model": "C-HR"
+    },
+    {
+        "brand_id": "024",
+        "model": "Camry"
+    },
+    {
+        "brand_id": "024",
+        "model": "Commuter"
+    },
+    {
+        "brand_id": "024",
+        "model": "Corolla Altis"
+    },
+    {
+        "brand_id": "024",
+        "model": "Corolla Cross"
+    },
+    {
+        "brand_id": "024",
+        "model": "Crown"
+    },
+    {
+        "brand_id": "024",
+        "model": "Fortuner"
+    },
+    {
+        "brand_id": "024",
+        "model": "GR 86"
+    },
+    {
+        "brand_id": "024",
+        "model": "GR Corolla"
+    },
+    {
+        "brand_id": "024",
+        "model": "Grand Wagon"
+    },
+    {
+        "brand_id": "024",
+        "model": "Hiace"
+    },
+    {
+        "brand_id": "024",
+        "model": "Hilux Revo"
+    },
+    {
+        "brand_id": "024",
+        "model": "Hilux Tiger"
+    },
+    {
+        "brand_id": "024",
+        "model": "Hilux Vigo"
+    },
+    {
+        "brand_id": "024",
+        "model": "Innova"
+    },
+    {
+        "brand_id": "024",
+        "model": "Landcruiser Prado"
+    },
+    {
+        "brand_id": "024",
+        "model": "Majesty"
+    },
+    {
+        "brand_id": "024",
+        "model": "Prius"
+    },
+    {
+        "brand_id": "024",
+        "model": "Sienta"
+    },
+    {
+        "brand_id": "024",
+        "model": "Sport Cruiser"
+    },
+    {
+        "brand_id": "024",
+        "model": "Sport Rider"
+    },
+    {
+        "brand_id": "024",
+        "model": "Super Wagon"
+    },
+    {
+        "brand_id": "024",
+        "model": "Supra"
+    },
+    {
+        "brand_id": "024",
+        "model": "Vellfire"
+    },
+    {
+        "brand_id": "024",
+        "model": "Veloz"
+    },
+    {
+        "brand_id": "024",
+        "model": "Ventury"
+    },
+    {
+        "brand_id": "024",
+        "model": "Vios"
+    },
+    {
+        "brand_id": "024",
+        "model": "Wish"
+    },
+    {
+        "brand_id": "024",
+        "model": "Yaris"
+    },
+    {
+        "brand_id": "024",
+        "model": "Yaris Ativ"
+    },
+    {
+        "brand_id": "025",
+        "model": "Amarok"
+    },
+    {
+        "brand_id": "025",
+        "model": "Beetle"
+    },
+    {
+        "brand_id": "025",
+        "model": "Caravelle"
+    },
+    {
+        "brand_id": "025",
+        "model": "Golf"
+    },
+    {
+        "brand_id": "025",
+        "model": "Multivan"
+    },
+    {
+        "brand_id": "025",
+        "model": "Passat"
+    },
+    {
+        "brand_id": "025",
+        "model": "Passat CC"
+    },
+    {
+        "brand_id": "025",
+        "model": "Scirocco"
+    },
+    {
+        "brand_id": "025",
+        "model": "Tiguan"
+    },
+    {
+        "brand_id": "026",
+        "model": "C30"
+    },
+    {
+        "brand_id": "026",
+        "model": "C40"
+    },
+    {
+        "brand_id": "026",
+        "model": "C70"
+    },
+    {
+        "brand_id": "026",
+        "model": "S40"
+    },
+    {
+        "brand_id": "026",
+        "model": "S60"
+    },
+    {
+        "brand_id": "026",
+        "model": "S80"
+    },
+    {
+        "brand_id": "026",
+        "model": "S90"
+    },
+    {
+        "brand_id": "026",
+        "model": "V40"
+    },
+    {
+        "brand_id": "026",
+        "model": "V50"
+    },
+    {
+        "brand_id": "026",
+        "model": "V60"
+    },
+    {
+        "brand_id": "026",
+        "model": "V70"
+    },
+    {
+        "brand_id": "026",
+        "model": "V90"
+    },
+    {
+        "brand_id": "026",
+        "model": "XC40"
+    },
+    {
+        "brand_id": "026",
+        "model": "XC60"
+    },
+    {
+        "brand_id": "026",
+        "model": "XC70"
+    },
+    {
+        "brand_id": "026",
+        "model": "XC90"
+    }
+]

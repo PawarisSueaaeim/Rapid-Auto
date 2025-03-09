@@ -13,6 +13,6 @@ describe("ButtonPrimary", () => {
     it("should render onClick correctly", () => {
         const button = screen.getByText("Toggle");
         fireEvent.click(button);
-        expect(onClickTest).toHaveBeenCalledTimes(2);
+        expect(onClickTest).toHaveBeenCalledTimes(1);
     });
 });
