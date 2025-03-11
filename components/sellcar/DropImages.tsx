@@ -1,6 +1,5 @@
 "use client";
 import DropArea from "@/common/droparea/DropArea";
-import Image from "next/image";
 import React, { useState } from "react";
 
 type Props = {};
