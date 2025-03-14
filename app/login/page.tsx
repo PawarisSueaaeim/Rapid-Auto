@@ -1,7 +1,5 @@
-import InputPrimary from "@/common/input/InputPrimary";
 import PaperPrimary from "@/common/paper/PaperPrimary";
 import LoginComponent from "@/components/auth-component/LoginComponent";
-import RegisterComponent from "@/components/auth-component/RegisterComponent";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
